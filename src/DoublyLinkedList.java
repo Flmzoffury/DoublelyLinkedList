@@ -1,9 +1,17 @@
 public class DoublyLinkedList<T>
 {
-
+    /**
+     * The current size of the DoublyLinkedList
+     */
     int size;
+    /**
+     * The head node of the DoublyLinkedList
+     */
     Node<T> head;
 
+    /**
+     * Constructor for DoublyLinkedList, initializes field size to 0;
+     */
     public DoublyLinkedList()
     {
         size = 0;
